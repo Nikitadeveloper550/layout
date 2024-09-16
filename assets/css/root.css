@@ -1,0 +1,46 @@
+
+:root {
+    --fs-50:50px;
+    --fs-30:30px;
+    --fs-20:20px;
+    --fs-70:70px;
+    --fw-400: 400;
+}
+
+.fs-50 {
+    font-size: var(--fs-50);
+}
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+@media (max-width:567px) { 
+    :root { 
+        --fs-50:20px;
+        --fw-400:400;
+    };
+}
+
+@media (min-width:567px) and (max-width:768px) {
+    :root {
+        --fs-50:30px;
+        --fw-400:400;
+    };
+} 
+
+@media (min-width:768px) and (max-width:992px) {
+    :root {
+        --fs-50:50px;
+        --fw-400:400;
+    };
+}
+
+@media (min-width:992px) and (max-width:1400px) {
+    :root {
+        --fs-50:70px;
+        --fw-400:400;
+    };
+}
+
+
